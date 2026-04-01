@@ -1,43 +1,27 @@
-**#HANNA IVANOVA**
-
-*Phone:   +375291111111
-*Email:     hanna @gmail.com
-*Linkedin: Hanna Ivanova 
-
-	**###Objective	**
-
+## HANNA IVANOVA
+*	Email: hanna @gmail.com
+*	Telegram: Hanna_Anna
+### Objective
 Front-end Developer
-
-	**###Summary**	
-
+### Summary
 Hardworking, cooperative, patient, organized.
+### Skills
+HTML, CSS, JavaScript English Proficiency: A2
+### Education
 
-	
-	**###Education** 	
+**2003-2008** - Belarusian National Technical University Faculties: Instrumentation Engineering Specialization: Process Engineer.
+### Code example:
+#Solution for Kata: *We want to create a function, which returns an array of functions, which return their index in the array.*
+```function createFunctions(n) {
+   const callbacks = [];
 
-
-
-2013-2018 - Belarusian National Technical University
-Faculties: Instrumentation Engineering
-Specialization: Process Engineer
-
-	**###Work experience**	
-
-
-
-August 2020 – Economist, commercial firm
-Main responsibilities: Management accounting. Calculation of production costs. Work with 1C, Excel.
-August 2018 – August 2020 – Process Engineer, Open Joint Stock Company "INTEGRAL" 
-Main responsibilities: Control of production technology compliance. Participation in production of experimental products.
-
-	**###Code Examples** 
-'''
-function check(a, x) {
-      for (var i = 0; i < a.length; i++) {
-        if (a[i] === x) {
-            return true;
+     for (let i=0; i<n; i++){
+        let callback  = function (){
+            return i
         }
+        callbacks.push(callback)        
     }
-    return false;
+
+  return callbacks;
 }
-'''
+```
